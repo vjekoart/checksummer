@@ -1,0 +1,78 @@
+.form {
+  display: block;
+
+  width: 100%;
+  margin: 1.5rem auto;
+  padding: 0.75rem;
+
+  color: rgb(var(--color-dark-rgb));
+  border: 0.25rem solid rgb(var(--color-dark-rgb));
+  box-shadow: 0.25rem 0.25rem 0 0 rgb(var(--color-dark-rgb));
+}
+
+.form label,
+.form textarea {
+  display: block;
+}
+
+.form label[for="target-file"] {
+  margin: 0 0 0.75rem 0;
+  padding: 0 0.75rem;
+
+  font-size: 1rem;
+  line-height: 2rem;
+
+  color: rgb(var(--color-light-rgb));
+  background-color: rgb(var(--color-error-rgb));
+
+  cursor: pointer;
+}
+
+.input-file {
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+
+.form textarea {
+  width: 100%;
+  margin: 0 0 0.75rem 0;
+  padding: 0 0.25rem;
+
+  border: 0.1rem solid rgb(var(--color-dark-rgb));
+  border-radius: 0;
+
+  line-height: 1.5rem;
+  resize: vertical;
+}
+
+.form textarea:focus {
+  outline: none;
+  border-color: rgb(var(--color-success-rgb));
+}
+
+.form button {
+  display: block;
+  width: 100%;
+
+  font-family: monospace;
+  font-size: 1rem;
+  line-height: 2rem;
+
+  color: rgb(var(--color-light-rgb));
+  background-color: rgb(var(--color-error-rgb));
+
+  border: none;
+  border-radius: 0;
+
+  cursor: pointer;
+}
+
+.form button[type="submit"]:hover,
+.form button[type="submit"]:focus,
+.form button[type="submit"]:click {
+  outline: none;
+  background-color: rgb(var(--color-error-rgb));
+}

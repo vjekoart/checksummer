@@ -1,0 +1,35 @@
+:root {
+  --color-dark-rgb: 22, 22, 29;
+  --color-light-rgb: 255, 255, 255;
+  --color-success-rgb: 0, 194, 0;
+  --color-error-rgb: 0, 0, 194;
+}
+
+* {
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+html {
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+body {
+  min-height: 100%;
+}
+
+h2 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+    margin: 0 0 0.75rem 0;
+}

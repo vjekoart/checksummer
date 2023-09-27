@@ -1,0 +1,12 @@
+.title {
+  margin: 0 0 1.5rem 0;
+
+  font-size: 1.5rem;
+  line-height: 3rem;
+
+  text-align: center;
+
+  color: rgb(var(--color-dark-rgb));
+  border: 0.25rem solid rgb(var(--color-dark-rgb));
+  box-shadow: 0.25rem 0.25rem 0 0 rgb(var(--color-dark-rgb));
+}

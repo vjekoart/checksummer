@@ -1,0 +1,32 @@
+.results {
+  display: block;
+
+  padding: 1.5rem;
+
+  border: 0.25rem solid rgb(var(--color-dark-rgb));
+  box-shadow: 0.25rem 0.25rem 0 0 rgb(var(--color-dark-rgb));
+}
+
+.results ul {
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.results ul li {
+  margin: 0 0 0.75rem 0;
+  padding: 0;
+}
+
+.file-name,
+.file-size,
+.hash,
+.description {
+  text-wrap: wrap;
+  overflow-wrap: break-word;  
+}
+
+.hash {
+  color: rgb(var(--color-success-rgb));
+}
